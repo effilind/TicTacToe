@@ -1,0 +1,101 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.anzeige {
+  background-color: #5DBB63;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 4vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.anzeige .anzeigeText {
+  font-size: 3vw;
+}
+
+.eingabe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 250px;
+  padding: 10vw;
+  text-align: center;
+  opacity: 1;
+}
+
+.eingabe .spieler {
+  text-align: left;
+  margin: auto;
+}
+
+.eingabe .spieler .playerTitle {
+  font-size: 2vw;
+  padding-top: 1vw;
+}
+
+.eingabe .spieler #spieler1 {
+  padding: 1vw;
+}
+
+.eingabe .spieler #spieler2 {
+  padding: 1vw;
+}
+
+.eingabe .spieler .startbutton {
+  padding: 1vw;
+  background-color: lightblue;
+  margin-top: 1vw;
+}
+
+.hidden {
+  opacity: 0;
+  display: none;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: white;
+}
+
+.visibility {
+  opacity: 0;
+  display: none;
+}
+
+.spielfeld {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (120px)[3];
+      grid-template-columns: repeat(3, 120px);
+  grid-gap: 5px;
+  padding: 20px;
+}
+
+.spielfeld .restart {
+  background-color: lightblue;
+  padding: 1vw;
+}
+
+.box {
+  height: 120px;
+  line-height: 120px;
+  background-color: lightblue;
+  font-size: 2vw;
+  text-align: center;
+}
+/*# sourceMappingURL=styles.css.map */
